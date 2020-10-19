@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    padding:1,4;
+    border-style: outset; 
+    border-color:14ff03;
+    
+}
+
+a:link{
+    color:blue;
+}
+
+a:hover{
+    color:rgb(100, 156, 240);
+}
+
+a:active{
+    color:green;
+}
+
