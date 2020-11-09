@@ -1,23 +1,31 @@
-body{
+body {
     background-color: whitesmoke;
 }
 
-nav{
-    padding:1,4;
-    border-style: outset; 
-    border-color:14ff03;
-    
+nav {
+    padding: 1, 4;
+    background-color: #328284;
 }
 
-a:link{
-    color:blue;
+
+/* this is a comment*/
+
+a:link {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 6px double red;
 }
 
-a:hover{
-    color:rgb(100, 156, 240);
+a:hover {
+    color: rgb(100, 156, 240);
 }
 
-a:active{
-    color:green;
-}
 
+/*
+a:visited {
+    color: #4f3558;
+}
+*/
+
+
+/* #05a58d    #909095    #e9e7e9 */
