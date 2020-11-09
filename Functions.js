@@ -1,4 +1,6 @@
+function user(name) {
 
-function idk(){
-    
+    document.getElementById("name").innerHTML = name;
 }
+
+user("Craig")
