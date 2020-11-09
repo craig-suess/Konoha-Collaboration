@@ -1,31 +1,50 @@
 body {
-    background-color: whitesmoke;
+    background-color: #05a58d;
+    color: #e9e7e9;
+    border-style: solid;
+    border-color: #4f3558;
+    padding-bottom: 50%;
 }
 
 nav {
     padding: 1, 4;
-    background-color: #328284;
+    background-color: #4f3558;
 }
 
 
 /* this is a comment*/
 
 a:link {
-    background-color: whitesmoke;
-    padding: 10px;
-    border: 6px double red;
+    background-color: #909095;
+    padding: 1%;
+    border: 6px double #4f3558;
+    color: #4f3558;
 }
 
 a:hover {
     color: rgb(100, 156, 240);
 }
 
-
-/*
 a:visited {
+    background-color: #909095;
+    padding: 10px;
     color: #4f3558;
 }
-*/
+
+h1 {
+    color: #e9e7e9;
+    font-family: "cinzel";
+    font-size: 300%;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: left;
+}
 
 
 /* #05a58d    #909095    #e9e7e9 */
