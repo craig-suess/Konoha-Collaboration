@@ -1,24 +1,31 @@
 body {
-    background-color: #05a58d;
+    background-color: #05a58d ;
     color: #e9e7e9;
     border-style: solid;
     border-color: #4f3558;
-    padding-bottom: 50%;
-}
+    border-radius: 5px;
+    
+ }
 
 nav {
-    padding: 1, 4;
+    padding: 1%;
     background-color: #4f3558;
+}
+
+.intro{
+    background-color:lightblue;
+    overflow:visible;
 }
 
 
 /* this is a comment*/
 
 a:link {
-    background-color: #909095;
-    padding: 1%;
-    border: 6px double #4f3558;
-    color: #4f3558;
+    /*background-color: #909095;*/
+    padding: .7%;
+    /*border: 6px double #4f3558;*/
+    color: white;
+    text-decoration:none;
 }
 
 a:hover {
@@ -28,7 +35,8 @@ a:hover {
 a:visited {
     background-color: #909095;
     padding: 10px;
-    color: #4f3558;
+    color: white;
+    text-decoration:none;
 }
 
 h1 {
