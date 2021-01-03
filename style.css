@@ -1,20 +1,23 @@
 body {
-    background-color: #05a58d ;
-    color: #e9e7e9;
+    background-color: rgb(240, 238, 236);
+    color: black;
     border-style: solid;
     border-color: #4f3558;
     border-radius: 5px;
-    
- }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
 nav {
     padding: 1%;
-    background-color: #4f3558;
+    background-color: rgba(0, 0, 0, 0.904);
 }
 
-.intro{
-    background-color:lightblue;
-    overflow:visible;
+.intro {
+    background-color: lightblue;
+    overflow: visible;
 }
 
 
@@ -25,7 +28,7 @@ a:link {
     padding: .7%;
     /*border: 6px double #4f3558;*/
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -36,11 +39,11 @@ a:visited {
     background-color: #909095;
     padding: 10px;
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 h1 {
-    color: #e9e7e9;
+    color: Black;
     font-family: "cinzel";
     font-size: 300%;
     text-align: center;
@@ -51,7 +54,17 @@ footer {
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    text-align: left;
+    text-align: center;
+    padding: 0%;
+}
+
+table,
+th.center {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-spacing: 50px;
+    background-color: ;
 }
 
 
