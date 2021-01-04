@@ -1,71 +1,69 @@
-body {
-    background-color: rgb(240, 238, 236);
-    color: black;
-    border-style: solid;
-    border-color: #4f3558;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-nav {
-    padding: 1%;
-    background-color: rgba(0, 0, 0, 0.904);
-}
-
-.intro {
-    background-color: lightblue;
-    overflow: visible;
-}
-
-
-/* this is a comment*/
-
-a:link {
-    /*background-color: #909095;*/
-    padding: .7%;
-    /*border: 6px double #4f3558;*/
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(100, 156, 240);
-}
-
-a:visited {
-    background-color: #909095;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-h1 {
-    color: Black;
-    font-family: "cinzel";
-    font-size: 300%;
-    text-align: center;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    text-align: center;
-    padding: 0%;
-}
-
-table,
-th.center {
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    border-spacing: 50px;
-    background-color: ;
-}
-
-
-/* #05a58d    #909095    #e9e7e9 */
+    body {
+        background-color: rgb(240, 238, 236);
+        color: black;
+        border-style: solid;
+        border-color: #4f3558;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+    nav {
+        padding: 1%;
+        background-color: rgba(0, 0, 0, 0.904);
+    }
+    
+    .intro {
+        background-color: lightblue;
+        overflow: visible;
+    }
+    /* this is a comment*/
+    
+    a:link {
+        /*background-color: #909095;*/
+        padding: .7%;
+        /*border: 6px double #4f3558;*/
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: rgb(100, 156, 240);
+    }
+    
+    a:visited {
+        background-color: #909095;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    h1 {
+        color: Black;
+        font-family: "cinzel";
+        font-size: 300%;
+        text-align: center;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 30;
+        text-align: center;
+        padding: 0%;
+        left: 0;
+        background-color: black;
+    }
+    
+    table,
+    th.center {
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(78, 78, 78);
+        border-spacing: 50px;
+        padding: 0;
+    }
+    /* #05a58d    #909095    #e9e7e9 */
