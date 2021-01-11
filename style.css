@@ -79,6 +79,13 @@ td {
     padding: 5px;
 }
 
+.footer{
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 /* #05a58d    #909095    #e9e7e9 */
 
